@@ -36,3 +36,28 @@ button {
 	width: 100%;
 	border-radius: 10px;
 }
+#counter {
+	background-color: cornflowerblue;
+	margin: 0 auto;
+
+	max-width: 200px;
+	height: 200px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.counter__title {
+	margin: 0;
+	padding: 0;
+}
+#counter button {
+	border-radius: 5px;
+}
+#counter #value {
+	font-size: 35px;
+}
