@@ -69,3 +69,18 @@ button {
 	margin-top: 50px;
 	border-radius: 10px;
 }
+#controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 50px;
+}
+#boxes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#boxes > div:not(:last-child) {
+	margin-bottom: 10px;
+}
