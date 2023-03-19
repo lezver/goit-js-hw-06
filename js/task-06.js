@@ -7,10 +7,10 @@ const changeOfValidation = () => {
 	const addClassList = lengthOfString.classList;
 	const removeClassList = lengthOfString.classList;
 
-	if (lengthOfString.value.length <= lengthOfString.dataset.length)
-		return addClassList.add("valid"), removeClassList.remove("invalid");
+	if (lengthOfString.value.length == lengthOfString.dataset.length)
+		addClassList.add("valid"), removeClassList.remove("invalid");
 	else {
-		return addClassList.add("invalid");
+		addClassList.add("invalid");
 	}
 };
 
