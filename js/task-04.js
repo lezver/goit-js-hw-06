@@ -26,3 +26,5 @@ const decrementValue = () => {
 
 refs.decrementBtn.addEventListener("click", decrementValue);
 refs.incrementBtn.addEventListener("click", incrementValue);
+
+// якщо  не потрібні дороботки у вигляді того що нижче нуля не опускається та вище 9 достатнь за кометнувати 17 та 23 стр.
