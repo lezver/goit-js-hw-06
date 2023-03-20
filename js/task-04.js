@@ -14,17 +14,13 @@ let counterValue = 0;
 
 const incrementValue = () => {
 	counterValue += 1;
-	if (counterValue > 9) return (counterValue = 9);
 	refs.infoOfValue.textContent = counterValue;
 };
 
 const decrementValue = () => {
 	counterValue -= 1;
-	if (counterValue < 0) return (counterValue = 0);
 	refs.infoOfValue.textContent = counterValue;
 };
 
 refs.decrementBtn.addEventListener("click", decrementValue);
 refs.incrementBtn.addEventListener("click", incrementValue);
-
-// якщо  не потрібні дороботки у вигляді того що нижче нуля не опускається та вище 9 достатнь за кометнувати 17 та 23 стр.
