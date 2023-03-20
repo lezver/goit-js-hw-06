@@ -23,8 +23,6 @@ const createBoxes = () => {
 			box.style.backgroundColor = getRandomHexColor();
 
 			arrayOfBoxes.push(box);
-			// refs.boxes.append(box);
-			// чи можна на замість масива , одразу додавати його у HTML ?
 		}
 
 		refs.boxes.append(...arrayOfBoxes);
